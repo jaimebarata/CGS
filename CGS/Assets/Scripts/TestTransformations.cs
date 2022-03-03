@@ -8,9 +8,9 @@ public class TestTransformations : MonoBehaviour
     void Start()
     {
         print(transform.eulerAngles);
-        transform.Rotate(0, 90, 0);
+        //transform.Rotate(0, 90, 0);
         transform.Translate(5, 0, 0);
-        
+        transform.Rotate(0, 90, 0);
         print(transform.localEulerAngles);
         print(transform.eulerAngles);
     }
